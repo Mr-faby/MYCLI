@@ -1,0 +1,47 @@
+{
+  "name": "custom-webpack",
+  "version": "1.0.0",
+  "description": "custom webpack",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --config  ./build/webpack.dev.js",
+    "build": "webpack --config ./build/webpack.prod.js"
+  },
+  "dependencies": {
+    "vue": "~2.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/plugin-transform-runtime": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@vue/babel-preset-jsx": "^1.2.4",
+    "babel-loader": "^8.2.5",
+    "cache-loader": "^4.1.0",
+    "css-loader": "^0.28.11",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-webpack-plugin": "^3.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "sass-resources-loader": "^2.2.5",
+    "terser-webpack-plugin": "^5.3.1",
+    "thread-loader": "^3.0.4",
+    "vue-loader": "^14.0.0",
+    "vue-template-compiler": "2.5.22",
+    "webpack": "^5.72.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "achao",
+  "license": "ISC"
+}
